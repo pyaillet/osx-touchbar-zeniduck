@@ -1,0 +1,26 @@
+{
+  "name": "osx-touchbar-zeniduck",
+  "version": "0.0.1",
+  "description": "Use Electron to display Zeniducks on MacBooks Pro Touch Bar",
+  "main": "src/duck.js",
+  "engines": {
+    "node": ">=5.6"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.6.3"
+  },
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pyaillet/osx-touchbar-zeniduck.git"
+  },
+  "author": "Pierre-Yves Aillet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pyaillet/osx-touchbar-zeniduck/issues"
+  },
+  "homepage": "https://github.com/pyaillet/osx-touchbar-zeniduck#readme"
+}
