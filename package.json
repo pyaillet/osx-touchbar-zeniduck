@@ -3,15 +3,19 @@
   "version": "0.0.1",
   "description": "Use Electron to display Zeniducks on MacBooks Pro Touch Bar",
   "main": "src/duck.js",
+  "bin": "src/duck.js",
   "engines": {
     "node": ">=5.6"
   },
-  "dependencies": {},
+  "dependencies": {
+    "electron-packager": "^14.2.1"
+  },
   "devDependencies": {
     "electron": "^1.6.3"
   },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . Zeniduck"
   },
   "repository": {
     "type": "git",
