@@ -10,4 +10,4 @@ It displays Zeniducks on MacBook's Pro Touch Bar using Electron.
 
  - Minor customization of this project
    [osx-touchbar-party-parrot](https://github.com/mjaniszew/osx-touchbar-party-parrot)
-
+ - Many thanks to [Benjamin Petetot](https://twitter.com/bpetetot) for his major contribution
